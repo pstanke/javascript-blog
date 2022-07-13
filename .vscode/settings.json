@@ -1,4 +1,10 @@
 {
-  "html.completion.attributeDefaultValue": "empty",
-  "prettier.singleQuote": true
+  "html.completion.attributeDefaultValue": "doublequotes",
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.autoClosingOvertype": "auto",
+  "prettier.quoteProps": "as-needed"
 }
