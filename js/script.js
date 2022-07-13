@@ -148,8 +148,10 @@
     for (let tagLink of tagLinks) {
       /* remove class active */
       tagLink.classList.remove('active');
+
       /* END LOOP: for each active tag link */
     }
+
     /* find all tag links with "href" attribute equal to the "href" constant */
 
     /* START LOOP: for each found tag link */
