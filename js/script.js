@@ -88,13 +88,13 @@
   function generateTags() {
     /* find all articles */
     const articles = document.querySelectorAll(optArticleSelector);
-
+    console.log(articles);
     /* START LOOP: for every article: */
 
     for (let article of articles) {
       /* find tags wrapper */
-      const tagsWrapper = article.querySelectorAll(optArticleTagsSelector);
-
+      const tagsWrapper = article.querySelector(optArticleTagsSelector);
+      console.log(tagsWrapper);
       /* make html variable with empty string */
       let html = '';
 
