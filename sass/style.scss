@@ -95,6 +95,34 @@ body {
   }
 }
 
+.tags.list {
+  li {
+    display: inline-block;
+    margin-left: 4px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Tags */
+.tag-size-tag-size-1 {
+  font-size: 100%;
+}
+.tag-size-tag-size-2 {
+  font-size: 130%;
+}
+.tag-size-tag-size-3 {
+  font-size: 140%;
+}
+.tag-size-tag-size-4 {
+  font-size: 170%;
+}
+.tag-size-tag-size-5 {
+  font-size: 200%;
+}
+
 /* Authors */
 
 .authors {
