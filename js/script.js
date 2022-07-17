@@ -144,7 +144,7 @@
     /* [NEW] START LOOP: for each tag in allTags: */
     for (let tag in allTags) {
       /* [NEW] generate code of a link and add it to allTagsHTML */
-      allTagsHTML += `<li><a href= ${tag} + ' (' + ${allTags[tag]} + ') '>${tag} (${allTags[tag]})</a></li>`;
+      allTagsHTML += `<li><a href=" #tag-${tag} + ' (' + #allTags-${allTags[tag]} + ') '">${tag}(${allTags[tag]})</a></li>`;
       console.log(allTagsHTML);
       /* [NEW] END LOOP: for each tag in allTags: */
     }
