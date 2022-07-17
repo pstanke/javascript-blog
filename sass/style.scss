@@ -4,6 +4,11 @@
 
 $color-light: #fff;
 $color-dark: #444;
+$color-tag-one: #00b894;
+$color-tag-two: #fd79a8;
+$color-tag-three: #fdcb6e;
+$color-tag-four: #512da8;
+$color-tag-five: #d63031;
 
 $font-logo: 'Sacramento', cursive;
 $font-header: 'Oswald', sans-serif;
@@ -95,10 +100,16 @@ body {
   }
 }
 
+.titles.list {
+  font-size: 20px;
+}
+
 .tags.list {
   li {
     display: inline-block;
     margin-left: 4px;
+    font-size: 20px;
+    font-style: italic;
   }
 }
 
@@ -107,20 +118,26 @@ a {
 }
 
 /* Tags */
+
 .tag-size-tag-size-1 {
   font-size: 100%;
+  color: $color-tag-one;
 }
 .tag-size-tag-size-2 {
   font-size: 130%;
+  color: $color-tag-two;
 }
 .tag-size-tag-size-3 {
   font-size: 140%;
+  color: $color-tag-three;
 }
 .tag-size-tag-size-4 {
   font-size: 170%;
+  color: $color-tag-four;
 }
 .tag-size-tag-size-5 {
   font-size: 200%;
+  color: $color-tag-five;
 }
 
 /* Authors */
