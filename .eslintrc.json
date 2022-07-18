@@ -12,6 +12,9 @@
     "linebreak-style": ["off"],
     "quotes": ["error", "single", { "allowTemplateLiterals": true }],
     "semi": ["error", "always"],
-    "no-console": ["off"]
+    "no-console": ["off"],
+    "globals": {
+      "Handlebars": false
+    }
   }
 }
