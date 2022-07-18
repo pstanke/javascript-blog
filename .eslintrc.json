@@ -15,6 +15,6 @@
     "no-console": ["off"]
   },
   "globals": {
-    "Handlebars": "off"
+    "Handlebars": "readonly"
   }
 }
